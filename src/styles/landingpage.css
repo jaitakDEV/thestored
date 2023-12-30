@@ -1,0 +1,16 @@
+.todaysdeal,
+.seasonSale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+}
+.dealTile,
+.saleTile {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}

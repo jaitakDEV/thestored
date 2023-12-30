@@ -1,0 +1,56 @@
+.profileSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  flex-direction: column;
+}
+.personalDetail,
+.trackOrder {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--lightGreen);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--black);
+}
+.name,
+.address,
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+textarea {
+  padding: 10px;
+}
+.trackOrder {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.trackOrderHeader {
+  display: flex;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.logOut button {
+  border: 1px solid var(--black);
+  background: var(--lightGreen);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.logOut button:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.219);
+  transform: scale(1.1);
+}

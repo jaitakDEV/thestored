@@ -1,0 +1,44 @@
+.sliderSection {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+
+  scroll-behavior: smooth;
+}
+.imagesSection {
+  display: flex;
+
+  flex-direction: row;
+}
+.imgKeeper img {
+  width: 100vw;
+}
+.arrow {
+  position: relative;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  bottom: 5px;
+  align-items: center;
+
+  z-index: 50;
+  transform: translate(-50%, -50%);
+  background: var(--lightGreen);
+  border: 1px solid var(--black);
+  border-radius: 10px;
+}
+.arrow img {
+  margin: 10px;
+  cursor: pointer;
+  width: 15px;
+}
+@media screen and (max-width: 600px) {
+  .arrow img {
+    width: 10px;
+    margin: 5px;
+  }
+  .arrow {
+    width: 50px;
+  }
+}

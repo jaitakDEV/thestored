@@ -1,0 +1,20 @@
+.about {
+  width: 100%;
+  background: var(--black);
+  color: var(--white);
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+.aboutus,
+.foot {
+  max-width: 1700px;
+}
+.foot {
+  text-align: center;
+  margin-top: 20px;
+}

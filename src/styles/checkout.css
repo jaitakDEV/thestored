@@ -1,0 +1,36 @@
+.checkOutSection {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.checkoutProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.pay {
+  display: flex;
+}
+#gpay,
+#rozarpay,
+#COD {
+  margin: 0;
+  width: 20px;
+}
+.checkoutBtn {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 0px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--black);
+  background: var(--lightGreen);
+  transition: all 0.1s ease-out;
+  transform: scale(1.1);
+}

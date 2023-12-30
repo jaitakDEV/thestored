@@ -1,0 +1,34 @@
+.loginSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loginSec .logo {
+  padding: 10px;
+}
+form input,
+form button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 250px;
+}
+
+.submitBtn {
+  border: 1px solid black;
+  color: var(--black);
+  background: var(--lightGreen);
+  cursor: pointer;
+}
+.submitBtn:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.453);
+}

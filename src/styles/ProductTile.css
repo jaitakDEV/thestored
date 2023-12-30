@@ -1,0 +1,42 @@
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgb(227, 227, 227);
+  width: 200px;
+  margin: 10px;
+  height: 200px;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid var(--black);
+  transition: all 0.3s ease-in-out;
+}
+.tile:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.106);
+  transform: scale(1.02);
+}
+.title,
+.price,
+.rating {
+  text-align: center;
+  color: var(--black);
+}
+.imgProduct {
+  overflow: hidden;
+}
+.imgProduct img {
+  width: 200px;
+}
+
+.productTiles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
